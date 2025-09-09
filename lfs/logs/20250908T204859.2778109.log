@@ -1,0 +1,51 @@
+git-lfs/3.7.0 (GitHub; windows amd64; go 1.24.4; git 92dddf56)
+git version 2.51.0.windows.1
+
+$ git-lfs prune
+Prune error: Git can't resolve ref: "HEAD"
+Prune error: error in `git worktree`: exit status 128: fatal: not a git repository (or any of the parent directories): .git
+
+Prune error: error in `git log`: exit status 128 fatal: not a git repository (or any of the parent directories): .git
+
+
+error in `git log`: exit status 128 fatal: not a git repository (or any of the parent directories): .git
+
+github.com/git-lfs/git-lfs/v3/errors.New
+	github.com/git-lfs/git-lfs/v3/errors/errors.go:62
+github.com/git-lfs/git-lfs/v3/lfs.parseScannerLogOutput.func2
+	github.com/git-lfs/git-lfs/v3/lfs/gitscanner_log.go:163
+runtime.goexit
+	runtime/asm_amd64.s:1700
+
+Current time in UTC:
+2025-09-08 15:18:59
+
+Environment:
+LocalWorkingDir=
+LocalGitDir=
+LocalGitStorageDir=
+LocalMediaDir=lfs\objects
+LocalReferenceDirs=
+TempDir=lfs\tmp
+ConcurrentTransfers=8
+TusTransfers=false
+BasicTransfersOnly=false
+SkipDownloadErrors=false
+FetchRecentAlways=false
+FetchRecentRefsDays=7
+FetchRecentCommitsDays=0
+FetchRecentRefsIncludeRemotes=true
+PruneOffsetDays=3
+PruneVerifyRemoteAlways=false
+PruneVerifyUnreachableAlways=false
+PruneRemoteName=origin
+LfsStorageDir=lfs
+AccessDownload=none
+AccessUpload=none
+DownloadTransfers=basic,lfs-standalone-file,ssh
+UploadTransfers=basic,lfs-standalone-file,ssh
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+GIT_ASKPASS=c:\Users\Windows\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+
+Client IP addresses:
+2409:408c:3e8e:2c52:ac48:38b0:429e:6ae0 2409:408c:3e8e:2c52:85b8:3d0a:457a:894d fe80::6779:f37b:8ef7:fca6 10.248.251.231
