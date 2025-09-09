@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import sun from "../images/sun.jpg";
 import moon from "../images/moon.svg";
-import logo from "../images/stacklyy.png"; // ✅ Import logo properly
+import logo from "../images/stacklyy.png"; 
 import { useLanguage } from "../LanguageContext";
 
 const translations = {
