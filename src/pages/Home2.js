@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useLanguage } from "../LanguageContext";
 import home2 from "../images/home2.mp4";
-import featureImg from "../images/webm.jpg";
+import featureImg from "../images/feature.jpg";
 import productivity from "../images/productivity.jpg";
 import partner from "../images/partner.jpg";
 import client from "../images/client.jpg";
